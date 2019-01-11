@@ -1,8 +1,6 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jan 11 08:32:12 2019
-
+.log to JSON
 @author: corelab
 """
 
