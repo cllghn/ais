@@ -2,6 +2,8 @@
 
 This repo is just a collection of my Python scrips written to work with AIS data.
 
+Each can be loaded into Python directly from GitHub using the code below:
+
 ```python
 import requests
 def githubimport(user, repo, module):
@@ -13,3 +15,5 @@ def githubimport(user, repo, module):
 
 ais_extractor = githubimport('cjcallag', 'ais', 'ais_extractor')
 ```
+
+Once loaded, you may want to take a look at the script to understand the required arguments and my logic (or lack thereof).
