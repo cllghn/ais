@@ -11,5 +11,5 @@ def githubimport(user, repo, module):
    exec(r, d)
    return d
 
-python_extract = githubimport('cjcallag', 'ais', 'ais_extractor')
+ais_extractor = githubimport('cjcallag', 'ais', 'ais_extractor')
 ```
