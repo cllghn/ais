@@ -14,7 +14,7 @@ import ais
 #########################
 
 # Location of the .log data
-DF_LOG = '/Users/corelab/Dropbox/Python FY19/AIS/Test'
+#DF_LOG = '/Users/corelab/Dropbox/Python FY19/AIS/Test'
 
 ###################
 # Define Function #
@@ -62,8 +62,8 @@ def log_to_json(DF_LOG):
         with open('data.json', 'w') as outfile:
             json.dump(logs, outfile)
             print(file, "Now attached to JSON!")
-            
+
 ###########
 # Run it! #
 ###########
-log_to_json(DF_LOG)
+#log_to_json(DF_LOG)
