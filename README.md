@@ -13,8 +13,9 @@ def githubimport(user, repo, module):
    exec(r, d)
    return d
 
-ais_extractor = githubimport('cjcallag', 'ais', 'ais_extractor')
-# You should change the object name to match the module.
+log_to_json = githubimport('cjcallag', 'ais', 'log_to_json')
+# You should change the object name to match the module
+.
 ```
 
 Once loaded, you may want to take a look at the script to understand the required arguments and my logic (or lack thereof).
