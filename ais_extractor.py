@@ -3,6 +3,15 @@
 .log to JSON
 @author: corelab
 """
+##############
+# Background #
+##############
+"""
+The purpose of this script is to create a function, which extracts relevant strings from the .log files, extracting the payload data, and saving the output into a JSON file for futher processing.
+The function itself takes:
+    * DF_LOG, which is the location of the .log files
+NOTE: For this script, the DF_LOG has been commented out so that the function can be downloaded and loaded using the Python script on the landing page of this repo.
+"""
 
 import glob
 import json
